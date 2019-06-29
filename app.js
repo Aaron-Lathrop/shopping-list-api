@@ -7,7 +7,7 @@ const morgan = require("morgan");
 
 const passport = require("passport");
 
-app.use(express.json);
+app.use(express.json());
 app.use(morgan("common"))
 
 app.use(function(req, res, next) {
@@ -18,6 +18,10 @@ app.use(function(req, res, next) {
         return res.sendStatus(204);
     }
     next();
+});
+
+app.get('/api/health', (req, res) => {
+    res.sendStatus(200);
 });
 
 let server;
