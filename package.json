@@ -1,0 +1,36 @@
+{
+  "name": "shopping-list-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aaron-Lathrop/shopping-list-api.git"
+  },
+  "author": "Aaron Lathrop Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aaron-Lathrop/shopping-list-api/issues"
+  },
+  "homepage": "https://github.com/Aaron-Lathrop/shopping-list-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.2",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "travis": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.1.4"
+  }
+}
